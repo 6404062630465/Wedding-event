@@ -1,0 +1,10 @@
+.star {
+  margin-left: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.star:hover {
+  color: yellow;
+}

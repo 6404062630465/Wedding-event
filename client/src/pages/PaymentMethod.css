@@ -1,0 +1,28 @@
+.payment-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.details-container {
+  margin-bottom: 20px;
+}
+
+.booking-detail {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.detail-heading {
+  font-weight: bold;
+}
+
+.total-price {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.total-heading {
+  font-weight: bold;
+}

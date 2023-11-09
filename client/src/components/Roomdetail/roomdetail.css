@@ -1,0 +1,122 @@
+.roompic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 30rem;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #c1c1c1;
+}
+
+.detail1 {
+    padding-top: 3rem;
+    padding-left: 10rem;
+    line-height: 2.5rem;
+}
+
+.detail2 {
+    height: 25rem;
+    background-color: rgb(255, 238, 240);
+    margin-top: 1.5rem;
+}
+
+.detail2text {
+    padding-left: 10rem;
+    line-height: 2.5rem;
+}
+
+.detail2text h3 {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.chooseroom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    background: rgb(255, 149, 149);
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: .7rem;
+    width: 6rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: 3rem;
+
+    &:hover {
+        background-color: lightcoral;
+    }
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    box-shadow: 2px 2px 30px rgb(0, 0, 0, 0.1);
+    background-color: rgb(255, 238, 240);
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.name-user strong {
+    font-size: 1.1rem;
+}
+
+.stars {
+    color: #f9d71c;
+    font-size: 1.3rem;
+}
+
+.box-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2opx;
+}
+
+.text-comment {
+    margin-top: 1rem;
+}
+
+.text-comment p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #4b4b4b;
+}
+
+.comments {
+    margin-top: 4rem;
+}
+
+.comments h2 {
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.user-reviews h2 {
+    font-weight: 600;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.text-review {
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+textarea.form-control {
+    max-width: 98%;
+}
